@@ -1,0 +1,212 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* INIT */
+.header-page {
+    width: 100%;
+    background-color: black;
+}
+
+.header-page-box {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.logo-box p {
+    color: white;
+    font-size: 2rem;
+    display: inline;
+}
+
+.logo-box span {
+    color: red;
+    font-size: 2rem;
+}
+
+.links-header-box a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 1.5rem;
+}
+
+.links-header-box a:hover {
+    color: red;
+    transition: .4s;
+}
+
+.suscribe-box {
+    background-color: red;
+    border-radius: 50px;
+    padding: .3rem .6rem;
+    transition: .3s;
+}
+
+.suscribe-box:hover {
+    transform: scale(1.2);
+    transition: .4s;
+}
+
+.suscribe-box a {
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* MAIN */
+.main-page {
+    width: 100%;
+}
+
+.main-page-box {
+    width: 90%;
+    margin: auto;
+}
+
+.user-box {
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.img-user-box {
+    width: 50%;
+}
+
+.img-user {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.info-user-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-user-box h1 {
+    color: rgb(255, 0, 0);
+}
+
+.info-user-box p {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 200;
+}
+
+/* CONTACT */
+.contact-page-box {
+    width: 100%;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact-box {
+    width: 50%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-box h1 {
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.form-box {
+    width: 80%;
+}
+
+.form-box form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs {
+    border: 0;
+    outline: none;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+}
+
+.mail-input {
+    background-color: rgb(228, 228, 228);
+    width: 70%;
+    padding: .5rem;
+    border-radius: .3rem;
+    border: 2px solid rgb(255, 255, 255); 
+}
+
+.mail-input:hover {
+    background-color: rgb(209, 209, 209);
+}
+
+.mail-input:focus {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid red; 
+}
+
+.submit-input {
+    width: 20%;
+    background-color: red;
+    color: white;
+    padding: .3rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.submit-input:hover {
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+
+.description-contact-box {
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-contact-box h1 {
+    color: red;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.description-contact-box p {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: center;
+}
